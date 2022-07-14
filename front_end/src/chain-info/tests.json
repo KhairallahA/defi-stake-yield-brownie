@@ -1,0 +1,92 @@
+{
+  "contracts": {
+    "DappToken": "af2c204b66387bf3f379d78e67c053e28c346894",
+    "LinkToken": "49e7bae2df618e81d877632c6ad55872ff2ce801",
+    "MockDAI": "ab1a66bc3a36fcf1351179f7adbca527a0f6c911",
+    "MockERC20": "e229bcae6d2ed1a8e1d7bffb4b55bf538c70859c",
+    "MockOracle": "7f09d8b642ed1af8d9a3e094ab619f25db4db23c",
+    "MockV3Aggregator": "9e734e161b5cafcca52a917f10266f5a8bc05b28",
+    "MockWETH": "21c4935a4e5b858efd5c83f628f8bb78bafdabce",
+    "OpenZeppelin/openzeppelin-contracts@4.2.0/ERC20": "5c27d7156fdbfe889902cc167df697405a50ad20",
+    "TokenFarm": "c45d059d023ce37b5204d7311355dad5e077b91f",
+    "VRFCoordinatorMock": "a234e721cab3c47e532d8404949512e63f344855",
+    "smartcontractkit/chainlink-brownie-contracts@0.2.2/BasicToken": "92084ac5279a2a3db988d9e01d7e6d3e3a4dab8d",
+    "smartcontractkit/chainlink-brownie-contracts@0.2.2/SafeMathChainlink": "bf84f5dba942291289c80f271862cb515ce813ab",
+    "smartcontractkit/chainlink-brownie-contracts@0.2.2/StandardToken": "7f21b0e2f1d1fcf89f4466183c9e73bc3cf77276",
+    "smartcontractkit/chainlink-brownie-contracts@0.2.2/VRFRequestIDBase": "73df0a6f5d0123eb2b2db0faf62b602aa77c123a"
+  },
+  "tests": {
+    "tests/uint/test_token_farm.py": {
+      "coverage": false,
+      "isolated": false,
+      "results": "......",
+      "sha1": "e376bfc5248090d062229f745db1ac3657575984",
+      "txhash": [
+        "44096a924723ed15933fcb136e0db0c5ab21fc7a",
+        "944009d7eb033770d73570c2d1ca3298d5eedebf",
+        "e8310235262c6d87f3736788cc6700c2f4b4027e"
+      ]
+    }
+  },
+  "tx": {
+    "44096a924723ed15933fcb136e0db0c5ab21fc7a": {
+      "TokenFarm": {
+        "4": [
+          [
+            1,
+            2,
+            25,
+            26
+          ],
+          [
+            33
+          ],
+          [
+            32,
+            36
+          ]
+        ]
+      }
+    },
+    "944009d7eb033770d73570c2d1ca3298d5eedebf": {
+      "TokenFarm": {
+        "0": [
+          [],
+          [],
+          []
+        ],
+        "2": [
+          [
+            7
+          ],
+          [],
+          []
+        ],
+        "4": [
+          [],
+          [],
+          []
+        ]
+      }
+    },
+    "e8310235262c6d87f3736788cc6700c2f4b4027e": {
+      "TokenFarm": {
+        "0": [
+          [],
+          [],
+          []
+        ],
+        "2": [
+          [],
+          [],
+          []
+        ],
+        "4": [
+          [],
+          [],
+          []
+        ]
+      }
+    }
+  }
+}
